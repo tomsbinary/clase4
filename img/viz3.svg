@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 805 600">
+    <rect width="1005" height="600" x="0" y="0" fill="#FFFFFF" id="backgorund" />
+    <g id="viz">
+        <g transform="translate(0,0)">
+            <g id="pie" transform="translate(402.5,304)">
+                <path fill="#1f77b4" stroke="#FFFFFF" d="M1.8002307947466092e-14,-294A294,294,0,0,1,93.94313523539908,-278.58694754446685L0,0Z" />
+                <path fill="#ff7f0e" stroke="#FFFFFF" d="M93.94313523539908,-278.58694754446685A294,294,0,0,1,246.34697037411817,160.4654797378344L0,0Z" />
+                <path fill="#2ca02c" stroke="#FFFFFF" d="M246.34697037411817,160.4654797378344A294,294,0,1,1,-5.400692384239827e-14,-294L0,0Z" />
+            </g>
+            <text y="6" x="402.5" style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: auto; text-anchor: middle;" />
+        </g>
+    </g>
+    <g id="legend" transform="translate(805,10)">
+        <g transform="translate(5,0)">
+            <g class="legendColor" transform="translate(0,0)">
+                <g class="legendCells" transform="translate(0,16)">
+                    <g class="cell" transform="translate(0, 0)">
+                        <rect class="swatch" height="15" width="15" style="fill: rgb(31, 119, 180);" />
+                        <text class="label" transform="translate( 20, 12.5)" font-family='"Arial", sans-serif' font-size="10px"><tspan x="0" dy="0em">Agricultural (US$MM)</tspan></text>
+                    </g>
+                    <g class="cell" transform="translate(0, 21)">
+                        <rect class="swatch" height="15" width="15" style="fill: rgb(255, 127, 14);" />
+                        <text class="label" transform="translate( 20, 12.5)" font-family='"Arial", sans-serif' font-size="10px"><tspan x="0" dy="0em">Industrial (US$MM)</tspan></text>
+                    </g>
+                    <g class="cell" transform="translate(0, 42)">
+                        <rect class="swatch" height="15" width="15" style="fill: rgb(44, 160, 44);" />
+                        <text class="label" transform="translate( 20, 12.5)" font-family='"Arial", sans-serif' font-size="10px"><tspan x="0" dy="0em">Service (US$MM)</tspan></text>
+                    </g>
+                </g>
+                <text class="legendTitle" font-family='"Arial", sans-serif' font-size="12px" font-weight="bold"><tspan x="0" dy="0em">Arcs colors</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>

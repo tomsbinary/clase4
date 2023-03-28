@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+        <style>
+            @media (min-width: 992px) {
+                .container {
+                    max-width: 960px;
+                }
+            }
+            h1 {
+                font-size: calc(1.75rem + 1.75vw);
+            }
+        </style>
+        <title>TRABAJANDO CON SVG</title>
+    </head>
+    <body>
+        
+        <header class="container">
+            <div class="row py-4">
+                <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                    <h1 class="mb-3 mt-5 text-center">TRABAJANDO CON SVG</h1>
+
+                    <h2 class="mb-5 text-center text-uppercase fs-5">Nombre Apellido & Nombre Apellido</h2>
+
+                    <p class="lead">Reemplaza este párrafo con un texto introductorio sobre SVG, de una extensión máxima de cien palabras. En este y todos los reemplazos, respeta los colores del código fuente en tu editor. Los colores son indicaciones. Imagina que el editor de código fuente te está indicando: En el lenguaje que reconozco, esto es algo que no debes confundir con eso.</p>
+                </div>
+            </div>
+        </header>
+
+        <main class="container">
+            <section>
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h2 class="text-center mt-5">GRÁFICA NO FIGURATIVA</h2>
+                        <h3 class="text-center my-3">svg como src de un elemento img</h3>
+                        <p>Reemplaza este párrafo con un texto que explique de que trata la gráfica que sigue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Agrega que el SVG que sigue es tratado tal como se podría tratar a una imagen rasterizada.</p>
+                    </div>
+                    <figure class="shadow-sm col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <img loading="lazy" src="img/viz1.svg" class="w-100" alt="describe lo que se ve en la imagen" />
+                        <figcaption class="p-3 text-center text-muted small">Gráfica no figurativa generada con <a href="https://app.rawgraphs.io/" class="link-dark">RAWGraphs</a></figcaption>
+                    </figure>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5 mb-3">svg como data de un elemento object</h3>
+                        <p>Reemplaza este párrafo con un texto que explique de que trata la gráfica que sigue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Agrega que el SVG que sigue es tratado a modo distinto de una imagen rastarizada.</p>
+                    </div>
+                    <figure class="shadow-sm col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <object type="image/svg+xml" data="img/viz2.svg">Acá se vería una gráfica</object>
+                        <figcaption class="p-3 text-center text-muted small">Gráfica no figurativa generada con <a href="https://app.rawgraphs.io/" class="link-dark">RAWGraphs</a></figcaption>
+                    </figure>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h3 class="text-center mt-5 mb-3">svg como svg</h3>
+                        <p>Reemplaza este párrafo con un texto que explique de que trata la gráfica que sigue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Agrega que el SVG que sigue está entre líneas del HTML.</p>
+                    </div>
+                    <figure class="shadow-sm col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 805 600">
+    <rect width="1005" height="600" x="0" y="0" fill="#FFFFFF" id="backgorund" />
+    <g id="viz">
+        <g transform="translate(0,0)">
+            <g id="pie" transform="translate(402.5,304)">
+                <path fill="#1f77b4" stroke="#FFFFFF" d="M1.8002307947466092e-14,-294A294,294,0,0,1,93.94313523539908,-278.58694754446685L0,0Z" />
+                <path fill="#ff7f0e" stroke="#FFFFFF" d="M93.94313523539908,-278.58694754446685A294,294,0,0,1,246.34697037411817,160.4654797378344L0,0Z" />
+                <path fill="#2ca02c" stroke="#FFFFFF" d="M246.34697037411817,160.4654797378344A294,294,0,1,1,-5.400692384239827e-14,-294L0,0Z" />
+            </g>
+            <text y="6" x="402.5" style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: auto; text-anchor: middle;" />
+        </g>
+    </g>
+    <g id="legend" transform="translate(805,10)">
+        <g transform="translate(5,0)">
+            <g class="legendColor" transform="translate(0,0)">
+                <g class="legendCells" transform="translate(0,16)">
+                    <g class="cell" transform="translate(0, 0)">
+                        <rect class="swatch" height="15" width="15" style="fill: rgb(31, 119, 180);" />
+                        <text class="label" transform="translate( 20, 12.5)" font-family='"Arial", sans-serif' font-size="10px"><tspan x="0" dy="0em">Agricultural (US$MM)</tspan></text>
+                    </g>
+                    <g class="cell" transform="translate(0, 21)">
+                        <rect class="swatch" height="15" width="15" style="fill: rgb(255, 127, 14);" />
+                        <text class="label" transform="translate( 20, 12.5)" font-family='"Arial", sans-serif' font-size="10px"><tspan x="0" dy="0em">Industrial (US$MM)</tspan></text>
+                    </g>
+                    <g class="cell" transform="translate(0, 42)">
+                        <rect class="swatch" height="15" width="15" style="fill: rgb(44, 160, 44);" />
+                        <text class="label" transform="translate( 20, 12.5)" font-family='"Arial", sans-serif' font-size="10px"><tspan x="0" dy="0em">Service (US$MM)</tspan></text>
+                    </g>
+                </g>
+                <text class="legendTitle" font-family='"Arial", sans-serif' font-size="12px" font-weight="bold"><tspan x="0" dy="0em">Arcs colors</tspan></text>
+            </g>
+        </g>
+    </g>
+</svg>
+                        <figcaption class="p-3 text-center text-muted small">Gráfica no figurativa generada con <a href="https://app.rawgraphs.io/" class="link-dark">RAWGraphs</a></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <section>
+                <div class="row">
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto">
+                        <h2 class="text-center mt-5">GRÁFICA FIGURATIVA</h2>
+                        <h3 class="text-center my-3">svg como data de un elemento object</h3>
+                        <p>Reemplaza este párrafo con un texto que explique de que trata la selección que han preparado con 6 gráficas figurativas. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                    <div class="col-md-11 col-lg-10 col-xl-9 col-xxl-8 mx-auto">
+                        <div class="row shadow-sm mb-4">
+                            <figure class="col-md-6 col-lg-4">
+                                <object type="image/svg+xml" data="img/fig1.svg">Acá se vería un icon</object>
+                            </figure>
+                            <figure class="col-md-6 col-lg-4">
+                                <object type="image/svg+xml" data="img/fig2.svg">Acá se vería un icon</object>
+                            </figure>
+                            <figure class="col-md-6 col-lg-4">
+                                <object type="image/svg+xml" data="img/fig3.svg">Acá se vería un icon</object>
+                            </figure>
+                            <figure class="col-md-6 col-lg-4">
+                                <object type="image/svg+xml" data="img/fig4.svg">Acá se vería un icon</object>
+                            </figure>
+                            <figure class="col-md-6 col-lg-4">
+                                <object type="image/svg+xml" data="img/fig5.svg">Acá se vería un icon</object>
+                            </figure>
+                            <figure class="col-md-6 col-lg-4">
+                                <object type="image/svg+xml" data="img/fig6.svg">Acá se vería un icon</object>
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="col-sm-11 col-md-10 col-lg-9 col-xl-8 col-xxl-7 mx-auto mb-5">
+                        <p>Reemplaza este párrafo con un texto de cierre sobre el uso de SVG. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pulvinar, nisi eget finibus luctus, nisi purus rutrum urna, et vulputate lorem justo tempor nisl.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="bg-light">
+            <div class="container">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <a href="https://github.com/profesorfaco/dno075-2023-1/" class="link-dark">Infografía Digital</a>
+                            <a href="https://github.com/profesorfaco/dno075-2023-1/tree/main/clase-04" class="link-dark">Martes 28 de marzo, 2023</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

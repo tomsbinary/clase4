@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 805 600">
+    <rect width="805" height="600" x="0" y="0" fill="#FFFFFF" id="backgorund" />
+    <g id="viz">
+        <g transform="translate(0,0)">
+            <g transform="translate(50,20)">
+                <g class="bars">
+                    <rect id="undefined - Animation" x="0.9986595174262902" y="550.9" height="9.100000000000023" width="73.4014745308311" fill="rgb(247, 251, 255)" />
+                    <rect id="undefined - Comedy" x="75.39879356568366" y="268.8" height="291.2" width="73.4014745308311" fill="rgb(18, 93, 164)" />
+                    <rect id="undefined - Docu-Series" x="149.79892761394103" y="490" height="70" width="73.4014745308311" fill="rgb(135, 189, 220)" />
+                    <rect id="undefined - Drama" x="224.1990616621984" y="306.59999999999997" height="253.40000000000003" width="73.4014745308311" fill="rgb(59, 138, 194)" />
+                    <rect id="undefined - Family Animation" x="298.5991957104558" y="51.80000000000001" height="508.2" width="73.4014745308311" fill="rgb(8, 48, 107)" />
+                    <rect id="undefined - Family Live Action" x="372.99932975871315" y="525.6999999999999" height="34.30000000000007" width="73.4014745308311" fill="rgb(242, 248, 254)" />
+                    <rect id="undefined - Foreign Language" x="447.3994638069705" y="494.20000000000005" height="65.79999999999995" width="73.4014745308311" fill="rgb(195, 218, 238)" />
+                    <rect id="undefined - Marvel" x="521.799597855228" y="514.5" height="45.5" width="73.4014745308311" fill="rgb(225, 237, 248)" />
+                    <rect id="undefined - Reality" x="596.1997319034853" y="546" height="14" width="73.4014745308311" fill="rgb(244, 249, 254)" />
+                    <rect id="undefined - Talk Show" x="670.5998659517426" y="487.9" height="72.10000000000002" width="73.4014745308311" fill="rgb(245, 250, 254)" />
+                </g>
+                <g id="xAxis" transform="translate(0,560)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+                    <path class="domain" stroke="currentColor" d="M0.5,0.5H745.5" />
+                    <g class="tick" opacity="1" transform="translate(37.69939678284184,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Animation</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(112.0995308310992,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Comedy</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(186.49966487935657,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Docu-Series</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(260.899798927614,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Drama</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(335.29993297587134,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Family Animation</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(409.7000670241287,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Family Live Action</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(484.1002010723861,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Foreign Language</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(558.5003351206435,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Marvel</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(632.9004691689008,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Reality</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(707.3006032171581,0)">
+                        <line stroke="currentColor" y2="6" />
+                        <text fill="currentColor" y="9" dy="0.71em">Talk Show</text>
+                    </g>
+                    <text x="745" y="-4" text-anchor="end" style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">Genere</text>
+                </g>
+                <g id="yAxis" fill="none" font-size="10" font-family="sans-serif" text-anchor="end">
+                    <path class="domain" stroke="currentColor" d="M-6,560.5H0.5V0.5H-6" />
+                    <g class="tick" opacity="1" transform="translate(0,560.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">0</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,490.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">100</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,420.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">200</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,350.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">300</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,280.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">400</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,210.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">500</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,140.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">600</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,70.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">700</text>
+                    </g>
+                    <g class="tick" opacity="1" transform="translate(0,0.5)">
+                        <line stroke="currentColor" x2="-6" />
+                        <text fill="currentColor" x="-9" dy="0.32em">800</text>
+                    </g>
+                    <text x="4" text-anchor="start" dominant-baseline="hanging" style="font-family: Arial, sans-serif; font-size: 12px; fill: rgb(123, 123, 123); font-weight: bold;">Episodes [sum]</text>
+                </g>
+            </g>
+            <text y="4" x="4" style="font-family: Arial, sans-serif; font-size: 12px; fill: black; font-weight: bold; dominant-baseline: hanging;" />
+        </g>
+    </g>
+</svg>
